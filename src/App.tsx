@@ -1,10 +1,12 @@
 import React from "react";
 import "./App.css";
+import { ProductListBad, ProductListGood } from "./SRP";
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'></header>
+    <div>
+      {/* <ProductListBad /> */}
+      <ProductListGood />
     </div>
   );
 }

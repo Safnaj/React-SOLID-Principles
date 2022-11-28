@@ -1,0 +1,32 @@
+.wrapper {
+  display: inline-block;
+}
+
+.rating {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  height: 300px;
+  margin: 10px 10px;
+  text-align: center;
+  font-family: arial;
+  float: left;
+  width: 20%;
+}
+
+.img {
+  max-width: 100%;
+  display: block;
+  height: 50%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.info {
+  display: inline-block;
+}
