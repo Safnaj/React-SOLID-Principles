@@ -9,3 +9,5 @@ We’ll start by looking from the inside. To ensure our components do one thing 
 - break large components that do too much into smaller components.
 - extract code unrelated to the main component functionality into separate utility functions.
 - encapsulate connected functionality into custom hooks
+
+## Open-closed Principle
