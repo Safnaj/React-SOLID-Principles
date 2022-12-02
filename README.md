@@ -10,4 +10,10 @@ We’ll start by looking from the inside. To ensure our components do one thing 
 - extract code unrelated to the main component functionality into separate utility functions.
 - encapsulate connected functionality into custom hooks
 
+#### The goal of this principle is:
+
+- Break large components that do too much into smaller components.
+- Extract code unrelated to the main component functionality into separate utility functions ( DateUtils, some businesses can be used in different places).
+- Move all business logic of the component into custom hooks ( useEffect, handlers, states ).
+
 ## Open-closed Principle
