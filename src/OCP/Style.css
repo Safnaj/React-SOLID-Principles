@@ -1,0 +1,23 @@
+.button-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  background-color: black;
+  color: white;
+  font-size: 16pt;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin: 40px;
+  border-radius: 15px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+}
