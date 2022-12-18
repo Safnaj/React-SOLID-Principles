@@ -31,3 +31,17 @@ The principle is related to code maintenance and new code change. To easy to und
 - Reduce the risk of breaking existing functionality.
 
 [Code Example](https://github.com/Safnaj/React-SOLID-Principles/tree/main/src/principles/OCP)
+
+## Liskov Substitution Principle
+
+LSP recommends designing objects in such a way that **subtype objects should be substitutable for supertype objects**. The Liskov Substitution Principle (LSP) is a principle in object-oriented programming that states that objects of a superclass should be able to be replaced with objects of a subclass without affecting the correctness of the program.
+
+It's important to follow the Liskov Substitution Principle when creating components in React because it helps to ensure that your components are flexible and easy to work with. By adhering to this principle, you can create a set of components that can be easily composed and reused in different parts of your application.
+
+#### The goal of this principle is:
+
+- In React, we don’t use inheritance to reduce duplicate code between components. We recommend using composition instead of inheritance to reuse code between components [Link](https://reactjs.org/docs/composition-vs-inheritance.html).
+- To enable the reuse and composition of components in a flexible and maintainable way.
+- By following this principle, you can create a set of flexible, interchangeable components that can be easily composed to create more complex UI elements.
+
+[Code Example](https://github.com/Safnaj/React-SOLID-Principles/tree/main/src/principles/LSP)
