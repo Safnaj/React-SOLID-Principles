@@ -1,0 +1,27 @@
+[
+    {
+        "title": "The Lord of the Rings",
+        "duration": "PT3H48M",
+        "coverUrl": "https://i.ytimg.com/vi/0uIN6twmsVk/maxresdefault.jpg"
+    },
+    {
+        "title": "The Hobbit",
+        "duration": "PT2H48M",
+        "coverUrl": "https://www.togetherprice.com/us/static/83ccec48fa5a318a88b2c35facada2e9/f53c6/2d70e235-ee0f-4625-8675-a49910483a15.jpg"
+    },
+    {
+        "title": "Spider Man 3",
+        "duration": 42321,
+        "coverUrl": "https://i.ytimg.com/vi/e5wUilOeOmg/maxresdefault.jpg"
+    },
+    {
+        "title": "Pirates of the Caribbean",
+        "duration": "PT2H48M",
+        "coverUrl": "https://netflixjunkie.com/wp-content/uploads/2022/05/Piratesofthecarribean-0fc72c9f13da4b29a527546ed83edce3.jpg"
+    },
+    {
+        "title": "Narnia 2",
+        "duration": "PT2H48M",
+        "coverUrl": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/ABF8326607C3968EB526471B57E44D7DDC8FFECC7263D8A24A01A4AAEC82DF26/scale?width=1200&aspectRatio=1.78&format=jpeg"
+    }
+]
