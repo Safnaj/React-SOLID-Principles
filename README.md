@@ -45,3 +45,16 @@ It's important to follow the Liskov Substitution Principle when creating compone
 - By following this principle, you can create a set of flexible, interchangeable components that can be easily composed to create more complex UI elements.
 
 [Code Example](https://github.com/Safnaj/React-SOLID-Principles/tree/main/src/principles/LSP)
+
+## Interface Segregation Principle
+
+According to ISP, **“clients should not depend upon interfaces that they don’t use.”** For the sake of React applications, we’ll translate it into “components shouldn’t depend on props that they don’t use”.
+
+The interface segregation principle advocates for minimizing dependencies between the components of the system, making them less coupled and thus more reusable.
+
+#### The goal of this principle is:
+
+- Improved maintainability: By creating smaller, more focused components, you can make it easier to understand and modify the codebase. This can save time and effort when making changes to the application.
+- Increased flexibility: By minimizing dependencies between components, you can make it easier to reuse and refactor components. This can make it easier to add new features or make changes to the application.
+
+[Code Example](https://github.com/Safnaj/React-SOLID-Principles/tree/main/src/principles/ISP)
