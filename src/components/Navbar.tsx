@@ -5,7 +5,7 @@ import "./Navbar.css";
 const headersData = [
   {
     label: "SRP",
-    route: "/",
+    route: "srp",
   },
   {
     label: "OCP",
