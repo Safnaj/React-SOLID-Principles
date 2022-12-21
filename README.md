@@ -72,3 +72,11 @@ In other words, you can think that a component should not contain dependencies (
 - Decoupling components from one another, so that changes to one component don't require changes to others.
 
 [Code Example](https://github.com/Safnaj/React-SOLID-Principles/tree/main/src/principles/DIP)
+
+<hr/>
+
+#### References :
+
+- [Applying SOLID principles in React](https://konstantinlebedev.com/solid-in-react/)
+- [How to Implement the SOLID Principle in React?](https://javascript.plainenglish.io/solid-principle-in-react-11272c41b529)
+- [Write React clean-code - SOLID](https://www.youtube.com/watch?v=MSq_DCRxOxw)
