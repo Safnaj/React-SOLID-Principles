@@ -6,7 +6,7 @@ The origial definition states that **"Every class should have only one responsib
 
 We’ll start by looking from the inside. To ensure our components do one thing internally, we can:
 
-- break large components that do too much into smaller components.
+- Break large components that do too much into smaller components.
 - extract code unrelated to the main component functionality into separate utility functions.
 - encapsulate connected functionality into custom hooks
 
@@ -58,3 +58,17 @@ The interface segregation principle advocates for minimizing dependencies betwee
 - Increased flexibility: By minimizing dependencies between components, you can make it easier to reuse and refactor components. This can make it easier to add new features or make changes to the application.
 
 [Code Example](https://github.com/Safnaj/React-SOLID-Principles/tree/main/src/principles/ISP)
+
+## Dependency Inversion Principle
+
+The dependency inversion principle states that **“one should depend upon abstractions, not concretions”**. In other words, one component shouldn’t directly depend on another component, but rather they both should depend on some common abstraction.
+
+In other words, you can think that a component should not contain dependencies (external services API call) in itself. and we had to reuse that component from another place. External services should work in a single way to reduce dependence on each other making the code clean and easy to use by other components.
+
+#### The goal of this principle is:
+
+- High-level modules should not depend on low-level modules. Both should depend on abstractions.
+- Making it easier to test components in isolation, by removing dependencies on external services or other components.
+- Decoupling components from one another, so that changes to one component don't require changes to others.
+
+[Code Example](https://github.com/Safnaj/React-SOLID-Principles/tree/main/src/principles/DIP)
